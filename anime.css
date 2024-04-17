@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+
+   box-sizing: border-box; 
+}
+
+#menuhorizontal {
+    list-style: none;
+    padding: 0;
+    background-color:rgb(255, 0, 0);
+}
+    
+#menuhorizontal li{
+    display: inline;
+}
+#menuhorizontal li a{
+    color: #fff;
+    padding: 120px;
+    outline: none; 
+    display: inline;
+}
